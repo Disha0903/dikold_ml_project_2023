@@ -37,4 +37,6 @@ Suffixes```_abs``` and ```_occ``` mean occurrence points and absence points. Als
 1) Firstly run ```spatial.R```, it contains all preprocessing steps
 2) Only after that you could run ```buffered.R``` and ```random.R```
 3) To install packages use ```install.packages(' ')```
+4) ipynb file for plotting scores (check next description)
 
+*results* folder contains predictions for current and past times. I used these csv files to plot ROC AUC using python (for better visualization). However, you could check scores in R also (I put comments)
