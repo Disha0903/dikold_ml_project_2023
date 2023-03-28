@@ -1,6 +1,27 @@
 # dikold_ml_project_2023
 This is my project "Using spatial cross validation strategies to mitigate optimistic bias due to Spatial Autocorrelation (SAC)".
 
+In experiment I used spatial CV with different sizes of block,
+B-LOO and random:
+  
+	"spBlock20" -  the size of block is 20 km
+	"spBlock200" - the size of block is 200 km
+	"spBlock400" - the size of block is 400 km
+	"spBlock700" - the size of block is 700 km
+	"B-LOO" - the size of block is 400 km
+	"random CV"
+
+
+
+
+
+
+
+
+
+
+
+
 
 Data folder contains 3 types of files:
 1) Shapefiles with extension '.shp' (for Norway and Sweden countries).  
