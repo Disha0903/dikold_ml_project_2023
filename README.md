@@ -15,15 +15,7 @@ B-LOO and random:
 
 
 
-
-
-
-
-
-
-
-
-Data folder contains 3 types of files:
+*Data* folder contains 3 types of files:
 1) Shapefiles with extension '.shp' (for Norway and Sweden countries).  
 
 Do not delete all other files with other extension in folders, they are needed to load 'shp' file.
@@ -35,3 +27,9 @@ We have ```env_curr```, ```env_past``` and ```env_future``` folders for current,
 3) CSV files about locations of species.
 
 Suffixes```_abs``` and ```_occ``` mean occurrence points and absence points. Also we have prefixes ```curr```, ```past```, ```fut``` for three time periods as with environmental data. In total there are 6 csv files.
+
+*Scripts* folder contains R scripts and ipynb for plotting (only metrics):
+
+1) Firstly run ```spatial.R```, it contains all preprocessing steps
+2) Only after that you could run ```buffered.R``` and ```random.R```
+
