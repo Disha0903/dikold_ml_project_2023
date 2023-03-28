@@ -16,8 +16,17 @@ B-LOO and random:
 	"random CV"
 
 
+Results:
+
+The model with the random CV method failed in test prediction; consequently, there is possible reason to believe that blocking CV is needed to be considered in spatial modeling.
+
+Models with small block sizes provide better results compared with models with large block sizes.
+
+However, negative class is not predicted for models with small blocks. Possibly it could be an outcome of SAC. It requires more experiments.
 
 
+
+Navigation of data
 
 *Data* folder contains 3 types of files:
 1) Shapefiles with extension '.shp' (for Norway and Sweden countries).  
