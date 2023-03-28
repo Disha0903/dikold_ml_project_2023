@@ -1,6 +1,10 @@
 # dikold_ml_project_2023
 This is my project "Using spatial cross validation strategies to mitigate optimistic bias due to Spatial Autocorrelation (SAC)".
 
+
+
+This research addresses blocking cross-validation methods to avoid inaccurate results due to the dependence of environmental predictors. Different methods of blocking cross-validation were considered to optimize their parameters in the prediction of a species' habitat suitability. In experiment six models with spatial, B-LOO and random CV were used.
+
 In experiment I used spatial CV with different sizes of block,
 B-LOO and random:
   
@@ -32,4 +36,5 @@ Suffixes```_abs``` and ```_occ``` mean occurrence points and absence points. Als
 
 1) Firstly run ```spatial.R```, it contains all preprocessing steps
 2) Only after that you could run ```buffered.R``` and ```random.R```
+3) To install packages use ```install.packages(' ')```
 
