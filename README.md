@@ -26,7 +26,6 @@ However, negative class is not predicted for models with small blocks. Possibly 
 
 
 
-Navigation of data
 
 *Data* folder contains 3 types of files:
 1) Shapefiles with extension '.shp' (for Norway and Sweden countries).  
